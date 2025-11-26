@@ -1,0 +1,181 @@
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+        font-size: 12pt;
+        line-height: 1.4;
+        margin: 0;
+        padding: 20pt;
+    }
+    
+    .navbar, .hero, .cultural-info, .recipes-section, footer, .recipe-actions, .recipe-controls, .modal, .rating-system, .close, .serving-calculator {
+        display: none !important;
+    }
+    
+    .modal-content {
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        width: 100% !important;
+        max-width: none !important;
+        max-height: none !important;
+    }
+    
+    #recipe-details {
+        padding: 0 !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+    
+    .recipe-header {
+        border-bottom: 3pt solid #1e3c72 !important;
+        padding-bottom: 15pt;
+        margin-bottom: 20pt;
+        page-break-after: avoid;
+    }
+    
+    .header-top {
+        display: block !important;
+    }
+    
+    .header-top .btn-print {
+        display: none !important;
+    }
+    
+    .recipe-header h2 {
+        font-size: 24pt !important;
+        margin: 0 0 10pt 0 !important;
+        color: #1e3c72 !important;
+        text-align: center;
+    }
+    
+    .story {
+        font-style: italic;
+        margin: 10pt 0;
+        padding: 10pt;
+        border-left: 4pt solid #1e3c72;
+        background: #f8f9fa !important;
+        font-size: 11pt;
+    }
+    
+    .recipe-meta {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10pt;
+        margin: 15pt 0;
+        padding: 10pt;
+        border: 1pt solid #ddd;
+        background: #f8f9fa !important;
+    }
+    
+    .meta-item {
+        text-align: center;
+        font-size: 10pt;
+    }
+    
+    .tips-section {
+        background: #e8f4f8 !important;
+        border: 1pt solid #1e3c72;
+        padding: 12pt;
+        margin: 15pt 0;
+        page-break-inside: avoid;
+    }
+    
+    .tips-section h4 {
+        font-size: 14pt;
+        margin-bottom: 8pt;
+        color: #1e3c72 !important;
+    }
+    
+    .ingredients-list {
+        background: #f8f9fa !important;
+        border: 2pt solid #27ae60;
+        padding: 12pt;
+        margin: 20pt 0;
+        page-break-inside: avoid;
+    }
+    
+    .ingredients-list h3 {
+        font-size: 16pt;
+        margin-bottom: 10pt;
+        border-bottom: 2pt solid #27ae60;
+        padding-bottom: 5pt;
+        color: #27ae60 !important;
+    }
+    
+    .ingredient {
+        padding: 5pt 0;
+        border-bottom: 1pt solid #eee;
+        font-size: 11pt;
+        line-height: 1.4;
+    }
+    
+    .instructions {
+        margin: 20pt 0;
+    }
+    
+    .instructions h3 {
+        font-size: 16pt;
+        margin-bottom: 10pt;
+        border-bottom: 2pt solid #1e3c72;
+        padding-bottom: 5pt;
+        color: #1e3c72 !important;
+    }
+    
+    .instructions li {
+        margin: 10pt 0;
+        padding: 10pt;
+        border: 1pt solid #ddd;
+        background: #f9f9f9 !important;
+        page-break-inside: avoid;
+        font-size: 11pt;
+        line-height: 1.4;
+        border-radius: 5pt;
+    }
+    
+    .nutrition-info {
+        background: #f8f9fa !important;
+        border: 1pt solid #ddd;
+        padding: 12pt;
+        margin: 20pt 0;
+        page-break-inside: avoid;
+    }
+    
+    .nutrition-info h3 {
+        font-size: 16pt;
+        margin-bottom: 10pt;
+        color: #1e3c72 !important;
+    }
+    
+    .nutrition-grid {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10pt;
+        margin-top: 10pt;
+    }
+    
+    .nutrition-item {
+        text-align: center;
+        padding: 8pt;
+        border: 1pt solid #ddd;
+        background: white !important;
+        border-radius: 5pt;
+    }
+    
+    .nutrition-value {
+        font-size: 14pt;
+        font-weight: bold;
+        color: #1e3c72 !important;
+    }
+    
+    .nutrition-label {
+        font-size: 9pt;
+        color: #666 !important;
+    }
+}
