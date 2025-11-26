@@ -11,7 +11,7 @@ const recipes = [
     tips: [
       'Mantener la masa cubierta con un paño húmedo para evitar que se seque',
       'No rellenar demasiado - hace difícil el sellado',
-      'Cocinar a fuego medio para asegurar cocción uniforme'
+      'Cocinar a fuego medio para asegurar cocción uniforme - test'
     ],
     ingredients: [
       { name: 'Masa harina (harina de maíz)', amount: 2, unit: 'tazas' },
