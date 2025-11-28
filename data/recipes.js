@@ -69,17 +69,17 @@ const recipes = [
       { name: 'Sal y pimienta', amount: 1, unit: 'al gusto' }
     ],
     instructions: [
-      'Clean banana leaves with damp cloth and cut into 12x10 inch rectangles',
-      'Season chicken with salt and pepper. Cook in pot with water until tender, about 45 minutes. Reserve broth and shred chicken',
-      'Sauté onion, bell pepper, and tomatoes until soft. Add achiote paste and cook 2 minutes more',
-      'Add shredded chicken to vegetable mixture. Season and let cool',
-      'Beat lard until fluffy (5 minutes). Gradually add masa harina and warm broth alternately',
-      'Beat masa mixture until light and fluffy, about 10 minutes',
-      'Spread 1/3 cup masa mixture on smooth side of banana leaf',
-      'Add 2 tablespoons chicken filling, 2 olives, few capers, and half a prune',
-      'Fold banana leaf to enclose filling completely. Tie with kitchen string',
-      'Steam tamales standing up for 60-90 minutes until masa pulls away from leaf easily',
-      'Let rest 10 minutes before serving. Serve hot with salsa'
+      'Limpia las hojas de plátano con un paño húmedo y córtalas en rectángulos de 12 x 10 pulgadas.',
+      'Sazona el pollo con sal y pimienta. Cocínalo en una olla con agua hasta que esté tierno, unos 45 minutos. Reserva el caldo y deshebra el pollo.',
+      'Sofríe la cebolla, el pimiento y los tomates hasta que estén suaves. Agrega la pasta de achiote y cocina 2 minutos más.',
+      'Añade el pollo deshebrado a la mezcla de vegetales. Sazona y deja enfriar.',
+      'Bate la manteca hasta que esté esponjosa (5 minutos). Agrega gradualmente la masa harina y el caldo tibio, alternándolos.',
+      'Bate la mezcla de masa hasta que esté ligera y esponjosa, unos 10 minutos.',
+      'Extiende 1/3 de taza de la mezcla de masa sobre el lado liso de la hoja de plátano.',
+      'Añade 2 cucharadas del relleno de pollo, 2 aceitunas, unas alcaparras y media ciruela pasa.',
+      'Dobla la hoja de plátano para encerrar completamente el relleno. Ata con cuerda de cocina.',
+      'Cocina al vapor los tamales puestos de pie durante 60–90 minutos, hasta que la masa se despegue fácilmente de la hoja.',
+      'Deja reposar 10 minutos antes de servir. Sirve caliente con salsa.'
     ],
     nutrition: {
       calories: 420,
