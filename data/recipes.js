@@ -113,16 +113,16 @@ const recipes = [
       { name: 'Salt to taste', amount: 1, unit: 'to taste' }
     ],
     instructions: [
-      'Peel yuca and cut into 4-inch thick strips. Remove any fibrous core',
-      'Bring large pot of salted water to boil. Add yuca and cook 15-20 minutes until fork-tender',
-      'Drain yuca thoroughly and let cool for 10 minutes',
-      'Heat oil in deep skillet or fryer to 350°F (175°C)',
-      'Fry yuca in small batches for 3-4 minutes until golden brown and crispy',
-      'Remove and drain on paper towels. Season immediately with salt',
-      'In small pan, melt butter and sauté garlic until fragrant, about 1 minute',
-      'Drizzle garlic butter over fried yuca',
-      'Garnish with lime juice and fresh cilantro',
-      'Serve immediately with curtido and salsa roja'
+      'Pela la yuca y córtala en tiras de 4 pulgadas de grosor. Retira cualquier parte fibrosa del centro.',
+      'Lleva a ebullición una olla grande con agua salada. Añade la yuca y cocina 15–20 minutos hasta que esté suave al pincharla con un tenedor.',
+      'Escurre bien la yuca y déjala enfriar durante 10 minutos.',
+      'Calienta el aceite en una sartén profunda o freidora a 350°F (175°C).',
+      'Fríe la yuca en tandas pequeñas durante 3–4 minutos, hasta que esté dorada y crujiente.',
+      'Retírala y escúrrela sobre toallas de papel. Sazona inmediatamente con sal.',
+      'En una sartén pequeña, derríte la mantequilla y saltea el ajo hasta que esté fragante, aproximadamente 1 minuto.',
+      'Rocía la mantequilla con ajo sobre la yuca frita.',
+      'Decora con jugo de limón y cilantro fresco.',
+      'Sirve inmediatamente con curtido y salsa roja.'
     ],
     nutrition: {
       calories: 320,
